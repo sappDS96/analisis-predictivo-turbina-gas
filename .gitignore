@@ -1,0 +1,15 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Local presentation/export files
+Diapositivas/
+Proyecto2 – Presentación turbina de gas/
+*.pptx
+
+# Duplicate raw archive
+archive/
+
+# OS/editor files
+.DS_Store
+Thumbs.db

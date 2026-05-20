@@ -1,0 +1,7 @@
+tipo_modelo,variable_objetivo,modelo,hiperparametros,MAE,RMSE,R2
+regresion_multisalida,CO,RandomForestRegressor,"{'max_depth': None, 'n_estimators': 100}",0.49247650246073227,1.0978934766772734,0.7783283236320495
+regresion_multisalida,NOX,RandomForestRegressor,"{'max_depth': None, 'n_estimators': 100}",2.602140420579828,4.077229694783937,0.8745523197628375
+regresion_multisalida,TEY,RandomForestRegressor,"{'max_depth': None, 'n_estimators': 100}",0.4337833945828241,0.6251174175786295,0.9983965650737919
+regresion_multisalida,CO,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 300}",0.5173356640842234,1.1397264148823392,0.7611138210002946
+regresion_multisalida,NOX,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 300}",2.5706315011787337,3.9594669600862735,0.8816942850699999
+regresion_multisalida,TEY,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 300}",0.3908620908027672,0.5581436073580224,0.9987217374963251

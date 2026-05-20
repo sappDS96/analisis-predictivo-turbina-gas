@@ -1,0 +1,119 @@
+tipo_modelo,variable_objetivo,modelo,hiperparametros,MAE,RMSE,R2
+regresion_por_separado,CO,RandomForestRegressor,"{'max_depth': None, 'n_estimators': 100}",0.4924765024607322,1.0978934766772734,0.7783283236320495
+regresion_por_separado,CO,RandomForestRegressor,"{'max_depth': None, 'n_estimators': 200}",0.4921327596018103,1.1008989717533222,0.777113005286254
+regresion_por_separado,CO,RandomForestRegressor,"{'max_depth': None, 'n_estimators': 300}",0.4904472773335602,1.1057458758234222,0.7751460854462007
+regresion_por_separado,CO,RandomForestRegressor,"{'max_depth': 5, 'n_estimators': 100}",0.6676432633643773,1.2628907304854833,0.70669372969107
+regresion_por_separado,CO,RandomForestRegressor,"{'max_depth': 5, 'n_estimators': 200}",0.6667987197436576,1.256488064483072,0.7096602280556001
+regresion_por_separado,CO,RandomForestRegressor,"{'max_depth': 5, 'n_estimators': 300}",0.6674054269132104,1.262967687513391,0.7066579820748728
+regresion_por_separado,CO,RandomForestRegressor,"{'max_depth': 10, 'n_estimators': 100}",0.5514824604547155,1.1435174665149768,0.7595219722596649
+regresion_por_separado,CO,RandomForestRegressor,"{'max_depth': 10, 'n_estimators': 200}",0.5512998973949726,1.1418194094783138,0.7602356338074886
+regresion_por_separado,CO,RandomForestRegressor,"{'max_depth': 10, 'n_estimators': 300}",0.5507035851990856,1.1458912746672263,0.7585225276042052
+regresion_por_separado,CO,RandomForestRegressor,"{'max_depth': 15, 'n_estimators': 100}",0.508932205120588,1.1164810406512171,0.7707588906608391
+regresion_por_separado,CO,RandomForestRegressor,"{'max_depth': 15, 'n_estimators': 200}",0.5080689233357834,1.1122332619845374,0.7724999199444422
+regresion_por_separado,CO,RandomForestRegressor,"{'max_depth': 15, 'n_estimators': 300}",0.5067007274183499,1.1138873886959078,0.771822735038257
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}",0.8142069630853044,1.4665413031069436,0.6044709429836647
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 200}",0.6632534983788543,1.2541363289451135,0.7107460535201976
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 300}",0.6226635073375907,1.192538044599525,0.7384623109047774
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 10, 'n_estimators': 100}",0.7576679508758338,1.4224279281641763,0.6279079957592968
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 10, 'n_estimators': 200}",0.5813055160481064,1.208909721923087,0.7312320142340629
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 10, 'n_estimators': 300}",0.5363925359432344,1.1508799448400422,0.7564153927777176
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 15, 'n_estimators': 100}",0.7478728793105192,1.439437966090294,0.6189554951905267
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 15, 'n_estimators': 200}",0.569810322586477,1.2802322636854884,0.6985832852679235
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 15, 'n_estimators': 300}",0.5279782987607212,1.2350549839076326,0.7194809358259973
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100}",0.592653797399629,1.1633574268876374,0.7511050243559296
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 200}",0.5711042819596139,1.146236319875673,0.7583770806648767
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}",0.5618893949800127,1.1329394483208826,0.7639504405677708
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 100}",0.5219778851185488,1.1201980721907647,0.7692299531893082
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 200}",0.5157294288296993,1.1145913536275127,0.7715342327135268
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 300}",0.5122484850390399,1.112160453927234,0.7725297037987603
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 15, 'n_estimators': 100}",0.5161656033186834,1.2129611585805182,0.7294275435323221
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 15, 'n_estimators': 200}",0.5148889357055634,1.2057447375724155,0.7326374673239429
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 15, 'n_estimators': 300}",0.5150855141118106,1.2054230937390915,0.732780091276027
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100}",0.5736251648338992,1.1513464320160367,0.7562178880340842
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}",0.553495341099223,1.1329720214644077,0.7639368670502785
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 300}",0.547107657455469,1.1284373851601293,0.765822735744893
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 100}",0.5212657377716322,1.1444133480167722,0.7591450226888355
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 200}",0.5177488729010157,1.1406683339518977,0.7607188061544556
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 300}",0.5173356640842234,1.1397264148823392,0.7611138210002946
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 15, 'n_estimators': 100}",0.5186962809359105,1.199182265015111,0.7355398802212694
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 15, 'n_estimators': 200}",0.518376189426216,1.1988656185260576,0.7356795242352927
+regresion_por_separado,CO,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 15, 'n_estimators': 300}",0.518455539169176,1.1988314658456976,0.7356945836781527
+regresion_por_separado,NOX,RandomForestRegressor,"{'max_depth': None, 'n_estimators': 100}",2.602140420579828,4.077229694783937,0.8745523197628375
+regresion_por_separado,NOX,RandomForestRegressor,"{'max_depth': None, 'n_estimators': 200}",2.5963792949503186,4.063556362141094,0.8753923076017883
+regresion_por_separado,NOX,RandomForestRegressor,"{'max_depth': None, 'n_estimators': 300}",2.5930922748514136,4.062763311630077,0.875440940150408
+regresion_por_separado,NOX,RandomForestRegressor,"{'max_depth': 5, 'n_estimators': 100}",4.958024792491628,6.743385999005028,0.656846591147393
+regresion_por_separado,NOX,RandomForestRegressor,"{'max_depth': 5, 'n_estimators': 200}",4.966427606957005,6.7557996901953965,0.6555820272275333
+regresion_por_separado,NOX,RandomForestRegressor,"{'max_depth': 5, 'n_estimators': 300}",4.965528529605865,6.751718800678804,0.6559979978744059
+regresion_por_separado,NOX,RandomForestRegressor,"{'max_depth': 10, 'n_estimators': 100}",3.341418483339972,4.8341920529195805,0.8236481264847096
+regresion_por_separado,NOX,RandomForestRegressor,"{'max_depth': 10, 'n_estimators': 200}",3.3466045206817165,4.83352727889219,0.8236966252134251
+regresion_por_separado,NOX,RandomForestRegressor,"{'max_depth': 10, 'n_estimators': 300}",3.344503826335041,4.830590715305821,0.8239107830203063
+regresion_por_separado,NOX,RandomForestRegressor,"{'max_depth': 15, 'n_estimators': 100}",2.7495846192846543,4.207480821247517,0.866409194722763
+regresion_por_separado,NOX,RandomForestRegressor,"{'max_depth': 15, 'n_estimators': 200}",2.749686452582673,4.202272798659758,0.8667397076186206
+regresion_por_separado,NOX,RandomForestRegressor,"{'max_depth': 15, 'n_estimators': 300}",2.749027142959641,4.201968071287872,0.8667590336301744
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}",5.658029016347552,7.369459004386537,0.590170239540146
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 200}",4.555947069314771,6.190764485769716,0.7107849806323001
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 300}",4.151990989733865,5.786570153906945,0.7473177571647416
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 10, 'n_estimators': 100}",4.676531729417154,6.254150539187628,0.7048322267690033
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 10, 'n_estimators': 200}",3.3228474491691045,4.778136473745931,0.8277142421395407
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 10, 'n_estimators': 300}",2.936102374952116,4.370919952244448,0.855828975793917
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 15, 'n_estimators': 100}",4.439718528842056,6.048129497278915,0.7239584607989187
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 15, 'n_estimators': 200}",3.08896745209949,4.622845045632964,0.8387309786014956
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 15, 'n_estimators': 300}",2.7387950463586392,4.289593196800975,0.8611440502100843
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100}",3.7712364171024113,5.370758675891827,0.7823275050991613
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 200}",3.403599064735713,4.924678248838355,0.8169844461613178
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}",3.2365892957004867,4.700777108028163,0.833247790907617
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 100}",2.739429803775836,4.168609926745981,0.8688661552901829
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 200}",2.6346958937130283,4.043873325145176,0.8765965324308059
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 300}",2.59434196043709,3.994243368020837,0.8796069759563747
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 15, 'n_estimators': 100}",2.6287854125237198,4.189371333151152,0.8675567007053554
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 15, 'n_estimators': 200}",2.604179978507351,4.160694430041075,0.8693636851858685
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 15, 'n_estimators': 300}",2.6009369408101373,4.15701009130151,0.869594942415501
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100}",3.4245303059239536,4.969331339412914,0.8136505188430986
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}",3.168695882730522,4.622846647252621,0.83873086685573
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 300}",3.03911797666621,4.450877773348725,0.8505060510736272
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 100}",2.635549813946202,4.037840026625291,0.8769644838940885
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 200}",2.5926574627694685,3.9839932965896088,0.8802240909305525
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 300}",2.5706315011787337,3.9594669600862735,0.8816942850699999
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 15, 'n_estimators': 100}",2.6120144321685164,4.14818058200201,0.8701483160375884
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 15, 'n_estimators': 200}",2.6088868972738863,4.144020462042384,0.8704086362887796
+regresion_por_separado,NOX,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 15, 'n_estimators': 300}",2.6080855846267434,4.143229144739238,0.8704581235432067
+regresion_por_separado,TEY,RandomForestRegressor,"{'max_depth': None, 'n_estimators': 100}",0.4337833945828241,0.6251174175786295,0.998396565073792
+regresion_por_separado,TEY,RandomForestRegressor,"{'max_depth': None, 'n_estimators': 200}",0.4318687355383133,0.622766549353121,0.998408602416648
+regresion_por_separado,TEY,RandomForestRegressor,"{'max_depth': None, 'n_estimators': 300}",0.4308515856812293,0.6203918782655424,0.9984207155941918
+regresion_por_separado,TEY,RandomForestRegressor,"{'max_depth': 5, 'n_estimators': 100}",1.1868421477809648,1.6419895737543038,0.9889371014468896
+regresion_por_separado,TEY,RandomForestRegressor,"{'max_depth': 5, 'n_estimators': 200}",1.1865271166197344,1.6424260432002304,0.9889312192427095
+regresion_por_separado,TEY,RandomForestRegressor,"{'max_depth': 5, 'n_estimators': 300}",1.186828375731651,1.6434081201896158,0.98891797828752
+regresion_por_separado,TEY,RandomForestRegressor,"{'max_depth': 10, 'n_estimators': 100}",0.624690945487317,0.8473811885083395,0.997053640223533
+regresion_por_separado,TEY,RandomForestRegressor,"{'max_depth': 10, 'n_estimators': 200}",0.622819536739944,0.8444197025998113,0.997074198516919
+regresion_por_separado,TEY,RandomForestRegressor,"{'max_depth': 10, 'n_estimators': 300}",0.6215647547756817,0.8419795127061408,0.9970910839481046
+regresion_por_separado,TEY,RandomForestRegressor,"{'max_depth': 15, 'n_estimators': 100}",0.4651155520339052,0.6510274391271373,0.9982608913052612
+regresion_por_separado,TEY,RandomForestRegressor,"{'max_depth': 15, 'n_estimators': 200}",0.4633168628002255,0.6489277210045346,0.9982720912920034
+regresion_por_separado,TEY,RandomForestRegressor,"{'max_depth': 15, 'n_estimators': 300}",0.4624379530574605,0.6468608174482962,0.9982830809072144
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}",4.488772375403545,5.905240773027244,0.8569119520068699
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 200}",1.8784234612079256,2.418471161212316,0.976000070509686
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 300}",0.9674190180944526,1.2630085658272263,0.9934545315831436
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 10, 'n_estimators': 100}",4.348597680524497,5.821097145547606,0.8609606163755097
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 10, 'n_estimators': 200}",1.7157411127595397,2.262097021953364,0.9790033216315872
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 10, 'n_estimators': 300}",0.7891992805162158,1.0397794460107832,0.995563805326028
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 15, 'n_estimators': 100}",4.311213601837843,5.814097926411264,0.8612947740189478
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 15, 'n_estimators': 200}",1.6880069285411323,2.253974858391158,0.9791538300237808
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.01, 'max_depth': 15, 'n_estimators': 300}",0.7726190579737452,1.033361181991154,0.995618403042706
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100}",0.6371527095040255,0.8457025268387817,0.9970653021351616
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 200}",0.5693230920793964,0.7535676945609056,0.9976699100664324
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}",0.5363622192864648,0.7134199534207049,0.9979115761545077
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 100}",0.4451828893493013,0.6132382219080077,0.9984569266486136
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 200}",0.4039926499283297,0.5696348319498391,0.9986685611811178
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 300}",0.3958117452309669,0.5612413268149161,0.9987075093055168
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 15, 'n_estimators': 100}",0.4198677244714706,0.598609424193407,0.9985296685749664
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 15, 'n_estimators': 200}",0.3912103686028312,0.5680820307705404,0.998675810182573
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.05, 'max_depth': 15, 'n_estimators': 300}",0.3901696926463263,0.5671463055658488,0.9986801689097908
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100}",0.573201443978649,0.7580810400095985,0.9976419152515564
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}",0.5158680338176137,0.6898177066104612,0.9980474740461212
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 300}",0.4800407003223839,0.6494145235225114,0.9982694978881984
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 100}",0.4090139718585978,0.576394636684868,0.9986367735564992
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 200}",0.3963665522259565,0.5634687948050959,0.9986972296108568
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 300}",0.3908620908027672,0.5581436073580224,0.9987217374963252
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 15, 'n_estimators': 100}",0.3987270959490934,0.5782973347225122,0.9986277585891916
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 15, 'n_estimators': 200}",0.3970497492515946,0.576864468551325,0.9986345502594
+regresion_por_separado,TEY,XGBRegressor,"{'learning_rate': 0.1, 'max_depth': 15, 'n_estimators': 300}",0.3967342254900359,0.5765892588299503,0.9986358528024534
+regresion_por_separado,TEY,LinearRegression,Sin hiperparámetros,0.772292,0.988256,0.995924
