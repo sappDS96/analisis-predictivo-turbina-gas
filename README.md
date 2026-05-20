@@ -38,7 +38,12 @@ El proyecto compara modelos de regresión individuales frente a un enfoque multi
 ├── resultados_multisalida_global.csv
 ├── feature_importance.csv
 ├── comparacion_condiciones_optimas_turbina.xlsx
-├── Ciclo-Brayton.jpg
+├── images/
+│   ├── Proyecto Turbina - 1 Funcionamiento.png
+│   ├── Proyecto Turbina - 2 Resumen Ejecutivo.png
+│   ├── Proyecto Turbina - 3 EDA.png
+│   ├── Proyecto Turbina - 4 Modelado Predictivo.png
+│   └── Proyecto Turbina - 5 Condiciones Optimas.png
 ├── requirements.txt
 └── README.md
 ```
@@ -53,6 +58,7 @@ El proyecto compara modelos de regresión individuales frente a un enfoque multi
 - `predicciones_xgb_final.csv`: predicciones finales del modelo seleccionado.
 - `feature_importance.csv`: importancia de variables para interpretación del modelo.
 - `comparacion_condiciones_optimas_turbina.xlsx`: comparación entre condiciones globales y condiciones óptimas.
+- `images/`: capturas utilizadas para presentar el dashboard y la narrativa visual del proyecto.
 
 ## Herramientas utilizadas
 
